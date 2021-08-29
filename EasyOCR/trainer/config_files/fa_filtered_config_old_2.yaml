@@ -1,6 +1,6 @@
-number: '0123456789'
-symbol: "٠١٢٣٤٥٦٧٨٩"
-lang_char: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ؟،؛ءآأؤإئااًبةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰٓٔٱٹپچڈڑژکڭگںھۀہۂۃۆۇۈۋیېےۓە
+number: '۱۲۳۴۵۶۷۸۹۰'
+symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
+lang_char: 0123456789!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ٠١٢٣٤٥٦٧٨٩«»؟،؛ءآأؤإئااًبةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰٓٔٱٹپچڈڑژکڭگںھۀہۂۃۆۇۈۋیېےۓە
 experiment_name: 'fa_filtered'
 train_data: 'all_data'
 valid_data: 'all_data/fa_val'
@@ -22,7 +22,7 @@ select_data: 'fa_train_filtered' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
-imgH: 64
+imgH: 45
 imgW: 120
 rgb: False
 contrast_adjust: False
